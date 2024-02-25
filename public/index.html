@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registration Form in HTML CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head> 
+  <body>
+    <h1 class="h1">Registration Form</h1>
+    <section class="container">
+      <header>Registration Form</header>
+      <form action="/sign_up" method="post" class="form">
+        <div class="input-box">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter full name" class="box" id="name" name="name" required />
+        </div>
+
+        <div class="input-box">
+          <label>Email Address</label>
+          <input type="text" placeholder="Enter email address" class="box" id="email" name="email" required />
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>Phone Number</label>
+            <input type="number" placeholder="Enter phone number" class="box" id="phno" name="phno" required />
+          </div>
+          <div class="input-box">
+            <label>Birth Date</label>
+            <input type="text" placeholder="Enter birth date" class="box" id="birth" name="birth" required />
+          </div>
+        </div>
+        <div class="input-box gender-box">
+            <label>Gender</label>
+            <input type="text" placeholder="Enter gender" class="box" id="gender" name="gender" required />
+          </div>
+          </div>
+        </div>
+        <div class="input-box address">
+          <label>Address</label>
+          <input type="text" placeholder="Enter street address" class="box" id="address" name="address" required />
+          <input type="text" placeholder="Enter street address line 2" class="box" id="address1" name="address" required />
+            <input type="text" placeholder="Enter your city" class="box" id="address2" name="address" required />
+          </div>
+          <div class="input-box column">
+            <input type="text" placeholder="Enter your region" class="box" id="region" name="region" required />
+            <input type="number" placeholder="Enter postal code" class="box" id="postal" name="postal" required />
+          </div>
+          
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
